@@ -24,7 +24,7 @@
 		08E4EDA620017C4C005CE141 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		08E4EDAB20017C4C005CE141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08E4EDB020017C4C005CE141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0DA829BB203C955F00F95BE3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		0DA829BB203C955F00F95BE3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7C1F2127D552A071F5E97EE3 /* Pods-VSACNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSACNative.release.xcconfig"; path = "Pods/Target Support Files/Pods-VSACNative/Pods-VSACNative.release.xcconfig"; sourceTree = "<group>"; };
 		835F9CF4296CEC81D86502B2 /* Pods-VSACNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VSACNative.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VSACNative/Pods-VSACNative.debug.xcconfig"; sourceTree = "<group>"; };
 		8C88E7330C2CE0986EC987BB /* Pods_VSACNative.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VSACNative.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -342,6 +342,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = N7M86ZE93M;
 				INFOPLIST_FILE = VSACNative/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lyndaclass.native;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -361,6 +362,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = N7M86ZE93M;
 				INFOPLIST_FILE = VSACNative/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lyndaclass.native;
 				PRODUCT_NAME = "$(TARGET_NAME)";
