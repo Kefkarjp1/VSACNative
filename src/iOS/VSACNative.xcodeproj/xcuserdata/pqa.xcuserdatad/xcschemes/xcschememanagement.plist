@@ -4,7 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+<<<<<<< HEAD
 		<key>VSACNative.xcscheme</key>
+=======
+		<key>VSACNative.xcscheme_^#shared#^_</key>
+>>>>>>> 397a547893137ddd02a0b14447a3d120265c6596
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
