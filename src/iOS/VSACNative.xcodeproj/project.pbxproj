@@ -96,7 +96,7 @@
 				TargetAttributes = {
 					08E4EDA020017C4C005CE141 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -255,12 +255,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B4XFLSJ3F4;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = N7M86ZE93M;
 				INFOPLIST_FILE = VSACNative/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lyndaclass.VSACReactNative;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyndaclass.native;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "38925914-8015-405b-9e21-7981ea285e5a";
+				PROVISIONING_PROFILE_SPECIFIER = VSACNativeAppDev;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -270,12 +273,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B4XFLSJ3F4;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = N7M86ZE93M;
 				INFOPLIST_FILE = VSACNative/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lyndaclass.VSACReactNative;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyndaclass.native;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ce9b6c4e-bca7-4cd2-9104-628bc549b4c6";
+				PROVISIONING_PROFILE_SPECIFIER = VSACNativeApp;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
