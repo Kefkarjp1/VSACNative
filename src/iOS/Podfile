@@ -10,3 +10,4 @@ target 'VSACNative' do
 end
 
 pod 'AppCenter'
+pod 'AppCenter/Push'

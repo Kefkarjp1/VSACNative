@@ -7,13 +7,16 @@ PODS:
   - AppCenter/Core (1.4.0)
   - AppCenter/Crashes (1.4.0):
     - AppCenter/Core
+  - AppCenter/Push (1.4.0):
+    - AppCenter/Core
 
 DEPENDENCIES:
   - AppCenter
+  - AppCenter/Push
 
 SPEC CHECKSUMS:
   AppCenter: 2f5890b60944971b8c3767269a9d693205a91fef
 
-PODFILE CHECKSUM: fe9b6a54f826103a7fa6ecfa660cef8f70fe590a
+PODFILE CHECKSUM: 4fc6681b1eb2b7d23b579e0116365b37cefd5c56
 
 COCOAPODS: 1.4.0
